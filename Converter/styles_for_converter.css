@@ -1,0 +1,144 @@
+body {
+    margin: 10px;
+    background-color: black;
+    font-family: Verdana;
+}
+
+#home {
+    margin-top: -1;
+    margin-left: -1;
+    margin-right: -1;
+    padding-bottom: 2cm;
+    background-color: rgb(145, 22, 119) 
+}
+
+header {
+    font-size: 30px;
+    color: rgb(209, 188, 209);
+    float: left;
+    padding-left: 2cm;
+    padding-top: 0.5cm;
+}
+
+.topdiv {
+    float: right;
+    padding-right: 1cm;
+}
+
+.topmenu {
+    color: rgb(173, 173, 173);
+    background-color: rgb(53, 1, 53);
+    margin: 10px;
+    padding: 10px;
+    border-radius: 1mm;
+    font-size: 20px;
+}
+.topmenu:hover {
+    color: white;
+    font-style: bold;
+    background-color: purple;
+    font-style: italic;
+}
+
+figure {
+    float: left;
+    justify-self: auto;
+    width: 200px;
+
+}
+
+img {
+    width: 200px;
+
+}
+
+figcaption {
+    color: black;
+    font-size: 17px;
+    text-align: center;
+}
+
+fieldset>button {
+    font-size: 20px;
+    border: trasparent;
+    border-radius: 40px;
+    width: fit-content;
+    background-color: rgb(95, 146, 95);
+    padding-left: 15px;
+    padding-right: 15px;
+}
+
+fieldset>button:hover {
+    cursor: pointer;
+}
+
+.b {
+    border-top: solid;
+    border-top-width: 20px;
+    border-radius: 10px;
+    background-color: white;
+    width: 600px;
+    height: 400px;
+    margin-top: 25px;
+    margin-bottom: 25px;
+    display: flexbox;
+    padding: 20px;
+}
+
+input {
+    width: 80px;
+}
+
+.btn {
+    margin: 10px;
+}
+
+.temperature {
+    border-top: solid green 10px;
+}
+
+.weight {
+    border-top: solid coral 10px;
+}
+
+.distance {
+    border-top: solid cyan 10px;
+}
+
+.output {
+    float: right;
+
+}
+
+legend {
+    font-size:30px;
+    font-weight: bolder;
+}
+
+#all-conversion-sections {
+    margin-left: 50px;
+    display: grid;
+    justify-content: center;
+}
+
+#go-home {
+    width: 40px;
+    height: 40px;
+    border-radius: 100%;
+    background-color: rgb(44, 198, 198);
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    position: fixed;
+    bottom:40px;
+    left:0;
+}
+
+.home-button-img {
+    width: 30px;
+}
+
+footer {
+background-color: lightpink;
+margin-top: 20px;
+}
